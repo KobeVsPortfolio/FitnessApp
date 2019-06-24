@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+    </style>
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccentOrange</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+    <style name="TextViewLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccentOrange</item>
+        <item name="boxStrokeWidth">5dp</item>
+</style>
+
+</resources>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/workout_fragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:fitsSystemWindows="true">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                             android:textSize="24sp"
+                             android:background="@color/colorPrimaryDark"
+                             android:padding="10dp"
+                             android:textAlignment="center"
+                             android:text="@string/total"
+                             android:textColor="@color/colorAccentWhite"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="10dp"
+                  android:background="@color/colorPrimary">
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textSize="16sp"
+                  android:textAlignment="center"
+                  android:text="@string/workouts"
+                  android:textColor="@color/colorAccentWhite"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textSize="16sp"
+                  android:textAlignment="center"
+                  android:text="@string/minutes"
+                  android:textColor="@color/colorAccentWhite"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:text="@string/kcal"
+                  android:textAlignment="center"
+                  android:textSize="16sp"
+                  android:textColor="@color/colorAccentWhite"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="@color/colorBackground"
+                  android:padding="10dp">
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:id="@+id/workouts_total"
+                  android:layout_weight="1"
+                  android:textSize="24sp"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:id="@+id/minutes_total"
+                  android:layout_weight="1"
+                  android:textSize="24sp"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:id="@+id/kcal_total"
+                  android:layout_weight="1"
+                  android:textSize="24sp"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textSize="24sp"
+              android:background="@color/colorPrimaryDark"
+              android:padding="10dp"
+              android:textAlignment="center"
+              android:text="@string/today"
+              android:textColor="@color/colorAccentWhite"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="10dp"
+                  android:background="@color/colorPrimary">
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textSize="16sp"
+                  android:textAlignment="center"
+                  android:text="@string/workouts"
+                  android:textColor="@color/colorAccentWhite"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textSize="16sp"
+                  android:textAlignment="center"
+                  android:text="@string/minutes"
+                  android:textColor="@color/colorAccentWhite"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:text="@string/kcal"
+                  android:textAlignment="center"
+                  android:textSize="16sp"
+                  android:textColor="@color/colorAccentWhite"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:background="@color/colorBackground"
+                  android:padding="10dp">
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:id="@+id/workouts_today"
+                  android:layout_weight="1"
+                  android:textSize="24sp"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textSize="24sp"
+                  android:id="@+id/minutes_today"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:id="@+id/kcal_today"
+                  android:textSize="24sp"
+                  android:textAlignment="center"
+                  android:textColor="@color/colorAccentBlue"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textSize="24sp"
+              android:background="@color/colorPrimaryDark"
+              android:padding="10dp"
+              android:textAlignment="center"
+              android:text="Activity"
+              android:textColor="@color/colorAccentWhite"/>
+    <com.hadiidbouk.charts.ChartProgressBar
+            android:id="@+id/chartProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:hdBarCanBeClick="true"
+            app:hdBarHeight="170dp"
+            app:hdBarWidth="10dp"
+            app:hdBarRadius="10dp"
+            app:hdMaxValue="60"
+            app:hdEmptyColor="@color/colorBackground"
+            app:hdProgressColor="@color/colorAccentBlue"
+            app:hdProgressClickColor="@color/colorAccentOrange"
+            app:hdPinBackgroundColor="@color/colorAccentWhite"
+            app:hdPinTextColor="@color/colorAccentOrange"
+            app:hdPinPaddingBottom="5dp"
+            app:hdBarTitleColor="@color/colorPrimaryDark"
+            app:hdBarTitleTxtSize="16sp"
+            app:hdPinTxtSize="17sp"
+            app:hdPinMarginTop="10dp"
+            app:hdPinMarginBottom="55dp"
+            app:hdPinMarginEnd="22dp"
+            app:hdBarTitleMarginTop="9dp"
+            app:hdPinDrawable="@drawable/ic_pin"
+            app:hdProgressDisableColor="@color/progress_disable"
+            app:hdBarTitleSelectedColor="@color/colorAccentOrange"
+            android:paddingBottom="15dp"/>
+</LinearLayout>

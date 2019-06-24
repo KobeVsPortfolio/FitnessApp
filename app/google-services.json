@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285333412630",
+    "firebase_url": "https://workyourbody-cd54c.firebaseio.com",
+    "project_id": "workyourbody-cd54c",
+    "storage_bucket": "workyourbody-cd54c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285333412630:android:e9a13357307851f4",
+        "android_client_info": {
+          "package_name": "com.kobe.workyourbodyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285333412630-081i7ut7r7k80b34o81unk1nnt0vl5q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0VEddPZdUjmUhPuaall7FDJgyd0IPoYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285333412630-081i7ut7r7k80b34o81unk1nnt0vl5q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

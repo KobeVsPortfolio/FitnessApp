@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">WorkYourBodyApp</string>
+    <string name="sign_up">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login_as_guest">Login as Guest</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="weight">Weight (KG)</string>
+    <string name="height">Length (CM)</string>
+    <string name="age">Age</string>
+    <string name="back">Back</string>
+    <string name="no_login_info">Please provide an email and password.</string>
+    <string name="wrong_login">Incorrect email and/or password.</string>
+    <string-array name="quotes">
+        <item>
+            <i>“Strength does not come from the physical capacity. It comes from an indomitable will.” – Ghandi</i>
+        </item>
+        <item>
+            <i>“Your body can stand almost anything. It’s your mind that you have to convince.”</i>
+        </item>
+        <item>
+            <i>“Fitness is like a relationship. You can’t cheat and expect it to work.”</i>
+        </item>
+        <item>
+            <i>“Rome wasn’t built in a day, but they worked on it every single day.”</i>
+        </item>
+        <item>
+            <i>“Strive for progress, not perfection.”</i>
+        </item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="passwords_no_match">Passwords do not match.</string>
+    <string name="password_6_chars">Your password needs at least 6 characters.</string>
+    <string name="account_created">Account successfully created, please log in.</string>
+    <string name="email_invalid">Email is invalid or already in use.</string>
+    <string name="fill_all_fields">Please fill in all the fields.</string>
+    <string-array name="gender">
+        <item>
+            <i>Man</i>
+        </item>
+        <item>
+            <i>Woman</i>
+        </item>
+    </string-array>
+    <string name="title_activity_test">test</string>
+    <string name="workout">Workout</string>
+    <string name="progress">Progress</string>
+    <string name="account">Account</string>
+
+    <string name="beginner">Beginner</string>
+    <string name="advanced">Advanced</string>
+    <string name="expert">Expert</string>
+    <string name="name">Name</string>
+    <string name="neutral">0.0</string>
+    <string name="bmi">BMI</string>
+    <string name="account_information">Account Information</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="old_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="guest">Guest</string>
+
+    <string name="save">Save</string>
+    <string name="workouts">Workouts</string>
+    <string name="minutes">Minutes</string>
+    <string name="kcal">KCAL</string>
+    <string name="total">Total</string>
+    <string name="today">Today</string>
+    <string name="sit_up">Sit Up</string>
+    <string name="exercise">Exercise 1/6</string>
+</resources>

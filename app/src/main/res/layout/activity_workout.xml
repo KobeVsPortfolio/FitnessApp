@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:textSize="32sp"
+                  android:background="@color/colorPrimaryDark"
+                  android:padding="20dp"
+                  android:textAlignment="center"
+                  android:text="@string/sit_up"
+                  android:textColor="@color/colorAccentWhite"/>
+        <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/situp"/>
+        <douglasspgyn.com.github.circularcountdown.CircularCountdown
+                android:id="@+id/circularCountdown"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:countdownBackgroundColor="@color/colorPrimary"
+                app:countdownForegroundColor="@color/colorPrimaryDark"
+                app:countdownTextColor="@color/colorPrimaryDark"
+                app:countdownTextSize="32sp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/end_workout_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:backgroundTint="@color/colorAccentOrange"
+                    app:rippleColor="@color/colorAccentOrange"
+                    android:clickable="true"
+                    app:borderWidth="0dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_arrow_back_black_24dp"
+                    android:layout_marginBottom="10dp"
+                    app:fabCustomSize="72dp"
+                    app:tint="@color/colorAccentWhite"/>
+            <Space
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/start_workout_button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:backgroundTint="@color/colorAccentWhite"
+                app:rippleColor="@color/colorAccentOrange"
+                android:clickable="true"
+                app:borderWidth="0dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_play_button"
+                app:fabCustomSize="72dp"
+                app:tint="@color/colorAccentOrange"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:textSize="24sp"
+              android:background="@color/colorPrimary"
+              android:padding="20dp"
+              android:textAlignment="center"
+              android:text="@string/exercise"
+              android:layout_alignParentBottom="true"
+              android:textColor="@color/colorAccentWhite"/>
+</RelativeLayout>

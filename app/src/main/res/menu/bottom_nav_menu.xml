@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_workout"
+            android:icon="@drawable/ic_muscle"
+            android:title="@string/workout"/>
+
+    <item
+            android:id="@+id/navigation_progress"
+            android:icon="@drawable/ic_development"
+            android:title="@string/progress"/>
+
+    <item
+            android:id="@+id/navigation_account"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/account"/>
+</menu>
